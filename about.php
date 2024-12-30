@@ -164,7 +164,9 @@
             </div>
         </div>
     </div>
-</section><!--====== End Who-we Section ======-->
+</section>
+
+<!--====== End Who-we Section ======-->
 <!--====== Start Team Section ======-->
 <!--====== End Team Section ======-->
 <!--====== Start Features Section ======-->
@@ -206,7 +208,8 @@
         </div>
     </div>
 </section>
-</div><!--====== End Features Section ======-->
+</div>
+<!--====== End Features Section ======-->
 <!--====== Start CTa Section ======-->
 <section class="cta-section dark-green-bg pt-70 pb-35">
     <div class="container">
@@ -227,7 +230,8 @@
             </div>
         </div>
     </div>
-</section><!--====== End CTa Section ======-->
+</section>
+<!--====== End CTa Section ======-->
 <!--====== Start Feedback Section ======-->
 <section class="feedback-section pt-100 pb-100">
     <div class="container">
@@ -295,7 +299,8 @@
             </div>
         </div>
     </div>
-</section><!--====== End Feedback Section ======-->
+</section>
+<!--====== End Feedback Section ======-->
 <!--====== Start Partners Section ======-->
 <section class="partners-section light-red-bg pb-80">
     <div class="container">
