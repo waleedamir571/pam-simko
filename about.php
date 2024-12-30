@@ -25,8 +25,9 @@
             <div class="col-lg-6">
                 <div class="section-title mb-40 wow fadeInLeft">
                     <span class="sub-title"><span class="number">01</span> About Us</span>
-                    <h2>About the Author: 
-                    <span class="thin">Pamela Simko</span></h2>
+                    <h2>About the Author:
+                        <span class="thin">Pamela Simko</span>
+                    </h2>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -125,9 +126,10 @@
                                     <i class="far fa-shield-check"></i>
                                 </div>
                                 <div class="text">
-                                    <h5 class="title">Our Mission</h5>
-                                    <p>To provide unique travel experiences that connect people with nature while
-                                        ensuring safety, comfort, and adventure.</p>
+                                    <h5 class="title">My Goals</h5>
+                                    <p>To inspire people to step out of their comfort zones, explore new places, and
+                                        create unforgettable memories through unique travel experiences that balance
+                                        adventure, comfort, and safety.</p>
                                     <span class="line"></span>
                                 </div>
                             </div>
@@ -138,14 +140,15 @@
                                     <i class="fas fa-layer-group"></i>
                                 </div>
                                 <div class="text">
-                                    <h5 class="title">Our Vision</h5>
-                                    <p>To become the go-to global travel partner for anyone seeking unforgettable
-                                        outdoor journeys.</p>
+                                    <h5 class="title">MY Vision</h5>
+                                    <p>To inspire a life of adventure, creativity, and joy by exploring new places,
+                                        trying new things, and connecting with others. Embrace challenges, create
+                                        lasting memories, and enjoy every moment for your well-being.</p>
                                     <span class="line"></span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <!-- <div class="col-lg-4 col-md-6">
                             <div class="fancy-icon-box mb-30 wow fadeInUp">
                                 <div class="icon">
                                     <i class="fas fa-tools"></i>
@@ -158,7 +161,7 @@
                                     <span class="line"></span>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -172,42 +175,42 @@
 <!--====== Start Features Section ======-->
 
 <div class="pt-100 pb-100">
-<section class="features-bg-section p-r z-1  ">
-    <div class="features-bg bg_cover wow fadeInRight"
-        style="background-image: url(assets/images/bg/features-bg-1.jpg);"></div>
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="features-content-box wow fadeInUp pr-lg-60">
-                    <div class="section-title mb-30">
-                        <span class="sub-title"><span class="number">04</span>Discover More</span>
-                        <h2>Better Travel to Change <span class="thin">your Better Emotions</span></h2>
-                    </div>
-                    <ul class="check-style-one mb-35">
-                        <li><i class="flaticon-draw-check-mark"></i>Feel refreshed as you connect with nature.
+    <section class="features-bg-section p-r z-1  ">
+        <div class="features-bg bg_cover wow fadeInRight"
+            style="background-image: url(assets/images/bg/features-bg-1.jpg);"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="features-content-box wow fadeInUp pr-lg-60">
+                        <div class="section-title mb-30">
+                            <span class="sub-title"><span class="number">04</span>Discover More</span>
+                            <h2>Better Travel to Change <span class="thin">your Better Emotions</span></h2>
+                        </div>
+                        <ul class="check-style-one mb-35">
+                            <li><i class="flaticon-draw-check-mark"></i>Feel refreshed as you connect with nature.
 
-                        </li>
-                        <li><i class="flaticon-draw-check-mark"></i>Enjoy tailored travel services to suit your
-                            preferences.
+                            </li>
+                            <li><i class="flaticon-draw-check-mark"></i>Enjoy tailored travel services to suit your
+                                preferences.
 
-                        </li>
-                        <li><i class="flaticon-draw-check-mark"></i>Let us take care of everything, so you focus on
-                            creating memories.
-                        </li>
-                    </ul>
-                    <div class="counting-box mt-40">
-                        <div class="title">
-                            <h5>Saticfied Clients <span>89%</span></h5>
-                            <div class="progress">
-                                <div class="progress-bar wow slideInLeft" style="width: 89%"></div>
+                            </li>
+                            <li><i class="flaticon-draw-check-mark"></i>Let us take care of everything, so you focus on
+                                creating memories.
+                            </li>
+                        </ul>
+                        <div class="counting-box mt-40">
+                            <div class="title">
+                                <h5>Saticfied Clients <span>89%</span></h5>
+                                <div class="progress">
+                                    <div class="progress-bar wow slideInLeft" style="width: 89%"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 </div>
 <!--====== End Features Section ======-->
 <!--====== Start CTa Section ======-->
