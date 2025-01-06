@@ -274,7 +274,7 @@
             speed: 800,
             autoplay: true,
             slidesToShow: 4,
-            slidesToScroll: 1,
+            slidesToScroll: 4,
             prevArrow: '<div class="prev"><i class="far fa-angle-left"></i></div>',
             nextArrow: '<div class="next"><i class="far fa-angle-right"></i></div>',
             responsive: [
