@@ -1,5 +1,16 @@
 <?php include 'header.php'; ?>
 
+<style>
+    .slick-dots {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 1;
+    display: none !important;
+}
+</style>
+
 <!--====== End Header ======-->
 <!--====== Start Banner Section ======-->
 <section class="banner-section">
@@ -18,12 +29,12 @@
                                         class="number">01</span>Camping</span>
                                 <h1 data-animation="fadeInUp" data-delay=".6s">Miss Pam and her travel experiences
                                 </h1>
-                                <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
+                                <!-- <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
                                     <a href="#" class="main-btn btn-yellow">Discover more<i
                                             class="far fa-angle-double-right"></i></a>
                                     <a href="#" class="main-btn btn-link">How it works<i
                                             class="far fa-angle-double-right"></i></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -40,12 +51,12 @@
                                 <span class="sub-title" data-animation="fadeInDown" data-delay=".4s"><span
                                         class="number">02</span>Camping</span>
                                 <h1 data-animation="fadeInUp" data-delay=".6s">Miss Pam and her travel experiences</h1>
-                                <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
+                                <!-- <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
                                     <a href="#" class="main-btn btn-yellow">Discover more<i
                                             class="far fa-angle-double-right"></i></a>
                                     <a href="#" class="main-btn btn-link">How it works<i
                                             class="far fa-angle-double-right"></i></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -62,12 +73,12 @@
                                 <span class="sub-title" data-animation="fadeInDown" data-delay=".4s"><span
                                         class="number">03</span>Camping</span>
                                 <h1 data-animation="fadeInUp" data-delay=".6s">Miss Pam and her travel experiences</h1>
-                                <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
+                                <!-- <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
                                     <a href="#" class="main-btn btn-yellow">Discover more<i
                                             class="far fa-angle-double-right"></i></a>
                                     <a href="#" class="main-btn btn-link">How it works<i
                                             class="far fa-angle-double-right"></i></a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -347,7 +358,7 @@
 <!--====== End Service Section ======-->
 <!--====== Start Choose Section ======-->
 
-<div class="pt-50 pb-20">
+<!-- <div class="pt-50 pb-20">
 <section class="choose-bg-section p-r z-1 pt-50 pb-20">
     <div class="choose-bg bg_cover wow fadeInLeft" style="background-image: url(assets/images/bg/choose-bg-1.jpg);">
     </div>
@@ -393,10 +404,10 @@
         </div>
     </div>
 </section>
-</div>
+</div> -->
 <!--====== End Choose Section ======-->
 <!--====== Start CTa Section ======-->
-<section class="cta-section dark-green-bg pt-70 pb-35">
+<!-- <section class="cta-section dark-green-bg pt-70 pb-35">
     <div class="container">
         <div class="cta-wrapper bg_cover" style="background-image: url(assets/images/bg/cta-bg-1.png);">
             <div class="row align-items-center">
@@ -415,7 +426,8 @@
             </div>
         </div>
     </div>
-</section><!--====== End CTa Section ======-->
+</section> -->
+<!--====== End CTa Section ======-->
 <!--====== Start Gallery Section ======-->
 <section class="gallery-section pt-90">
     <div class="container-fluid">
@@ -442,7 +454,7 @@
             </div>
             <div class="gallery-item">
                 <div class="gallery-img">
-                    <img src="assets/images/gallery/client/2.JPG" alt="Gallery Image">
+                    <img src="assets/images/gallery/client/2.png" alt="Gallery Image">
                     <!-- <div class="hover-overlay">
                         <div class="hover-content text-center text-white">
                             <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
@@ -502,7 +514,7 @@
             </div>
             <div class="gallery-item">
                 <div class="gallery-img">
-                    <img src="assets/images/gallery/client/7.jpg" alt="Gallery Image">
+                    <img src="assets/images/gallery/client/7.png" alt="Gallery Image">
                     <!-- <div class="hover-overlay">
                         <div class="hover-content text-center text-white">
                             <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
@@ -562,7 +574,7 @@
             </div>
             <div class="gallery-item">
                 <div class="gallery-img">
-                    <img src="assets/images/gallery/client/12.JPG" alt="Gallery Image">
+                    <img src="assets/images/gallery/client/12.png" alt="Gallery Image">
                     <!-- <div class="hover-overlay">
                         <div class="hover-content text-center text-white">
                             <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
@@ -670,7 +682,7 @@
             </div>
             <div class="gallery-item">
                 <div class="gallery-img">
-                    <img src="assets/images/gallery/client/21.JPG" alt="Gallery Image">
+                    <img src="assets/images/gallery/client/21.png" alt="Gallery Image">
                     <!-- <div class="hover-overlay">
                         <div class="hover-content text-center text-white">
                             <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
@@ -716,18 +728,18 @@
                     </div> -->
                 </div>
             </div>
-            <div class="gallery-item">
+            <!-- <div class="gallery-item">
                 <div class="gallery-img">
                     <img src="assets/images/gallery/client/25.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
+                    <div class="hover-overlay">
                         <div class="hover-content text-center text-white">
                             <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
                             <h4 class="title"><a href="">Tent Camping</a></h4>
                             <a href="#" class="cat-link">Forest Traveling</a>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
-            </div>
+            </div> -->
             <div class="gallery-item">
                 <div class="gallery-img">
                     <img src="assets/images/gallery/client/26.JPG" alt="Gallery Image">
@@ -778,7 +790,7 @@
             </div>
             <div class="gallery-item">
                 <div class="gallery-img">
-                    <img src="assets/images/gallery/client/30.JPG" alt="Gallery Image">
+                    <img src="assets/images/gallery/client/30.png" alt="Gallery Image">
                     <!-- <div class="hover-overlay">
                         <div class="hover-content text-center text-white">
                             <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
@@ -790,7 +802,7 @@
             </div>
             <div class="gallery-item">
                 <div class="gallery-img">
-                    <img src="assets/images/gallery/client/31.JPG" alt="Gallery Image">
+                    <img src="assets/images/gallery/client/31.png" alt="Gallery Image">
                     <!-- <div class="hover-overlay">
                         <div class="hover-content text-center text-white">
                             <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
@@ -875,7 +887,7 @@
     </div>
 </section><!--====== End Feedback Section ======-->
 <!--====== Start Blog Section ======-->
-<section class="blog-section pt-90 pb-50">
+<!-- <section class="blog-section pt-90 pb-50">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-10">
@@ -945,6 +957,7 @@
             </div>
         </div>
     </div>
-</section><!--====== End Blog Section ======-->
+</section> -->
+<!--====== End Blog Section ======-->
 
 <?php include 'footer.php'; ?>

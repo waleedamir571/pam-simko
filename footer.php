@@ -44,10 +44,10 @@
                         <div class="footer-nav-content">
                             <ul class="footer-nav">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">Pricing</a></li>
+                                <!-- <li><a href="#">Pricing</a></li> -->
                                 <li><a href="#">About us</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Blog</a></li>
+                                <!-- <li><a href="#">Features</a></li>
+                                <li><a href="#">Blog</a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -110,8 +110,8 @@
                     <div class="copyright-nav float-lg-end">
                         <ul>
                             <li><a href="#">Setting & Privacy</a></li>
-                            <li><a href="#">Faqs</a></li>
-                            <li><a href="#">Food Menu</a></li>
+                            <!-- <li><a href="#">Faqs</a></li>
+                            <li><a href="#">Food Menu</a></li> -->
                         </ul>
                     </div>
                 </div>
