@@ -120,7 +120,6 @@
     </div>
 </section>
 
-
 <section class="about-section pt-100 pb-50">
     <div class="container">
         <div class="row align-items-center">
@@ -187,8 +186,6 @@
     </div>
 </section>
 
-<!--====== End Banner Section ======-->
-<!--====== Start Features Section ======-->
 <section class="features-section pt-95 pb-50">
     <div class="container">
         <div class="row justify-content-center">
