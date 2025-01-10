@@ -2,13 +2,13 @@
 
 <style>
     .slick-dots {
-    display: block;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    line-height: 1;
-    display: none !important;
-}
+        display: block;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        line-height: 1;
+        display: none !important;
+    }
 </style>
 
 <!--====== End Header ======-->
@@ -26,22 +26,27 @@
                         <div class="col-lg-6">
                             <div class="hero-content text-white">
                                 <span class="sub-title" data-animation="fadeInDown" data-delay=".4s"><span
-                                        class="number">01</span>Camping</span>
-                                <h1 data-animation="fadeInUp" data-delay=".6s">Miss Pam and her travel experiences
-                                </h1>
-                                <!-- <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
-                                    <a href="#" class="main-btn btn-yellow">Discover more<i
+                                        class="number"></span>A LITTLE ABOUT ME</span>
+                                <h3 data-animation="fadeInUp" data-delay=".6s">I write books, eat dark chocolate, raise
+                                    three children, love my husband, scrub toilets, ignore the laundry, and love a good
+                                    story, but hardly ever in that order.
+
+
+                                </h3>
+                                <br>
+                                <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
+                                    <a href="#" class="main-btn btn-yellow">Learn more<i
                                             class="far fa-angle-double-right"></i></a>
-                                    <a href="#" class="main-btn btn-link">How it works<i
+                                    <a href="#" class="main-btn btn-link">Subscribe<i
                                             class="far fa-angle-double-right"></i></a>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!--====== Single Slider ======-->
-            <div class="single-slider p-r z-1" data-title="Adventure">
+            <!-- <div class="single-slider p-r z-1" data-title="Adventure">
                 <div class="image-layer bg_cover"
                     style="background-image: url(assets/images/hero/hero-slider-two.jpg);"></div>
                 <div class="container">
@@ -51,19 +56,14 @@
                                 <span class="sub-title" data-animation="fadeInDown" data-delay=".4s"><span
                                         class="number">02</span>Camping</span>
                                 <h1 data-animation="fadeInUp" data-delay=".6s">Miss Pam and her travel experiences</h1>
-                                <!-- <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
-                                    <a href="#" class="main-btn btn-yellow">Discover more<i
-                                            class="far fa-angle-double-right"></i></a>
-                                    <a href="#" class="main-btn btn-link">How it works<i
-                                            class="far fa-angle-double-right"></i></a>
-                                </div> -->
+                             
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!--====== Single Slider ======-->
-            <div class="single-slider p-r z-1" data-title="Travel">
+            <!-- <div class="single-slider p-r z-1" data-title="Travel">
                 <div class="image-layer bg_cover"
                     style="background-image: url(assets/images/hero/hero-slider-three.jpg);"></div>
                 <div class="container">
@@ -73,22 +73,41 @@
                                 <span class="sub-title" data-animation="fadeInDown" data-delay=".4s"><span
                                         class="number">03</span>Camping</span>
                                 <h1 data-animation="fadeInUp" data-delay=".6s">Miss Pam and her travel experiences</h1>
-                                <!-- <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
-                                    <a href="#" class="main-btn btn-yellow">Discover more<i
-                                            class="far fa-angle-double-right"></i></a>
-                                    <a href="#" class="main-btn btn-link">How it works<i
-                                            class="far fa-angle-double-right"></i></a>
-                                </div> -->
+                              
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
 
-<section class="about-section pt-100 pb-50">
+<section class="services-section pt-90 pb-100">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-7 col-lg-10">
+                <div class="section-title text-center mb-50 wow fadeInDown">
+                    <!-- <span class="sub-title"><span class="number">04</span></span> -->
+                    <h2>Books of Pamela Simko
+                        <span class="thin"></span>
+                    </h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class=" col-md-12 col-sm-12">
+                <img src="assets/images/hero/book.jpg" alt="Service image">
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- <section class="about-section pt-100 pb-50">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -156,9 +175,9 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="about-section pt-100 pb-50">
+<!-- <section class="about-section pt-100 pb-50">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
@@ -184,23 +203,24 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
-<section class="features-section pt-95 pb-50">
+<!-- <section class="features-section pt-95 pb-50">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-7 col-lg-10">
-                <!--====== Section Title ======-->
+               
                 <div class="section-title text-center mb-50 wow fadeInDown">
                     <span class="sub-title"><span class="number">01</span> Enjoy Adventure</span>
                     <h2>Places i have visited at Mexico!!
-                        <span class="thin"></span></h2>
+                        <span class="thin"></span>
+                    </h2>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <!--====== Features Thumb Item ======-->
+               
                 <div class="features-thumb-item mb-40 wow fadeInUp">
                     <div class="thumb">
                         <img src="assets/images/hero/cancun.png" alt="Features image">
@@ -215,7 +235,7 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <!--====== Features Thumb Item ======-->
+              
                 <div class="features-thumb-item mb-40 wow fadeInUp">
                     <div class="thumb">
                         <img src="assets/images/hero/merida.png" alt="Features image">
@@ -230,7 +250,7 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <!--====== Features Thumb Item ======-->
+              
                 <div class="features-thumb-item mb-40 wow fadeInUp">
                     <div class="thumb">
                         <img src="assets/images/hero/tulum.png" alt="Features image">
@@ -246,7 +266,7 @@
                 </div>
             </div>
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                <!--====== Features Thumb Item ======-->
+              
                 <div class="features-thumb-item mb-40 wow fadeInUp">
                     <div class="thumb">
                         <img src="assets/images/hero/cholula.png" alt="Features image">
@@ -262,11 +282,13 @@
             </div>
         </div>
     </div>
-</section><!--====== End Features Section ======-->
+</section> -->
+
+<!--====== End Features Section ======-->
 <!--====== Start Form Section ======-->
 <!--====== End About Section ======-->
 <!--====== Start Video Section ======-->
-<section class="video-bg-section pt-140 pb-210 p-r z-1 bg_cover"
+<!-- <section class="video-bg-section pt-140 pb-210 p-r z-1 bg_cover"
     style="background-image: url(assets/images/video/video-1.jpg);">
     <div class="container">
         <div class="row align-items-center">
@@ -284,7 +306,9 @@
             </div>
         </div>
     </div>
-</section><!--====== End Video Section ======-->
+</section> -->
+
+<!--====== End Video Section ======-->
 <!--====== Start Fun Section ======-->
 <!-- <section class="fun-fact mt-minus-100 plr-5p p-r z-2">
     <div class="container-fluid">
@@ -426,393 +450,7 @@
 </section> -->
 <!--====== End CTa Section ======-->
 <!--====== Start Gallery Section ======-->
-<section class="gallery-section pt-90">
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-10">
-                <div class="section-title text-center mb-50 wow fadeInDown">
-                    <span class="sub-title"><span class="number">06</span>Recent Gallery</span>
-                    <h2>Explore My Photo Gallery:  <span class="thin">Capturing Memories from My Travels</span></h2>
-                </div>
-            </div>
-        </div>
-        <div class="gallery-slider-one wow fadeInUp">
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/1.jpg" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="#" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="#">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/2.png" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/3.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/4.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/5.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/6.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/7.png" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/8.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/9.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/10.jpg" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/11.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/12.png" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/13.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/14.JPG" alt="Gallery Image">
-                        <!-- <div class="hover-overlay">
-                            <div class="hover-content text-center text-white">
-                                <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                                <h4 class="title"><a href="">Tent Camping</a></h4>
-                                <a href="#" class="cat-link">Forest Traveling</a>
-                            </div>
-                        </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/15.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/16.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/17.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/18.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/19.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/20.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/21.png" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/22.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/23.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/24.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <!-- <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/25.JPG" alt="Gallery Image">
-                    <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/26.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/27.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/28.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/29.JPG" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/30.png" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="gallery-img">
-                    <img src="assets/images/gallery/client/31.png" alt="Gallery Image">
-                    <!-- <div class="hover-overlay">
-                        <div class="hover-content text-center text-white">
-                            <a href="" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                            <h4 class="title"><a href="">Tent Camping</a></h4>
-                            <a href="#" class="cat-link">Forest Traveling</a>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-           
-        </div>
-    </div>
-</section><!--====== End Gallery Section ======-->
+<!--====== End Gallery Section ======-->
 <!--====== Start Feedback Section ======-->
 <section class="feedback-section pt-100">
     <div class="container">

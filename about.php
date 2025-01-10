@@ -5,21 +5,28 @@
 <section class="page-banner light-red-bg pt-170 pb-170 bg_cover"
     style="background-image: url(assets/images/bg/page-bg-1.jpg);">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="page-banner-content text-center text-white">
-                    <h1 class="page-title">About the Author</h1>
-                    <ul class="breadcrumb-link text-white">
+        <div class="row ">
+            <div class="col-lg-6">
+                <div class="page-banner-content  text-white">
+                    <h1 class="page-title">About Me
+                    </h1>
+                    <p>Kimberly Stuart, in an effort to condone the time and money spent, would like you to know she
+                        holds degrees from St. Olaf College and the University of Iowa. She learned lots of interesting
+                        things at these fine institutions, none of which prepared her for the lethal cocktail of
+                        parenthood and writing. Stuart is the author of eight published novels, including the Heidi
+                        Elliott series, Act Two, Stretch Marks, Operation Bonnet, Sugar, and Heart Land. She is a
+                        frequent public speaker and is passionate about helping others live great stories.</p>
+                    <!-- <ul class="breadcrumb-link text-white">
                         <li><a href="index.html">Home</a></li>
                         <li class="active">About Us</li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </div>
     </div>
 </section><!--====== End Breadcrumb Section ======-->
 <!--====== Start About Section ======-->
-<section class="about-section pt-90 pb-60">
+<!-- <section class="about-section pt-90 pb-60">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -103,9 +110,11 @@
             </div>
         </div>
     </div>
-</section><!--====== End About Section ======-->
+</section> -->
+
+<!--====== End About Section ======-->
 <!--====== Start Who-we Section ======-->
-<section class="who-we-bg-section p-r z-1 pt-100 pb-100">
+<!-- <section class="who-we-bg-section p-r z-1 pt-100 pb-100">
     <div class="who-bg bg_cover wow fadeInLeft" style="background-image: url(assets/images/bg/we-bg-1.jpg);"></div>
     <div class="container-fluid">
         <div class="row justify-content-end">
@@ -148,33 +157,20 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-lg-4 col-md-6">
-                            <div class="fancy-icon-box mb-30 wow fadeInUp">
-                                <div class="icon">
-                                    <i class="fas fa-tools"></i>
-                                </div>
-                                <div class="text">
-                                    <h5 class="title">Company Goals</h5>
-                                    <p>Offer top-tier customer experiences.
-                                        Promote sustainable and eco-friendly tourism.
-                                        Build a community of passionate travelers.</p>
-                                    <span class="line"></span>
-                                </div>
-                            </div>
-                        </div> -->
+                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!--====== End Who-we Section ======-->
 <!--====== Start Team Section ======-->
 <!--====== End Team Section ======-->
 <!--====== Start Features Section ======-->
 
-<div class="pt-100 pb-100">
+<!-- <div class="pt-100 pb-100">
     <section class="features-bg-section p-r z-1  ">
         <div class="features-bg bg_cover wow fadeInRight"
             style="background-image: url(assets/images/bg/features-bg-1.jpg);"></div>
@@ -211,10 +207,10 @@
             </div>
         </div>
     </section>
-</div>
+</div> -->
 <!--====== End Features Section ======-->
 <!--====== Start CTa Section ======-->
-<section class="cta-section dark-green-bg pt-70 pb-35">
+<!-- <section class="cta-section dark-green-bg pt-70 pb-35">
     <div class="container">
         <div class="cta-wrapper bg_cover" style="background-image: url(assets/images/bg/cta-bg-1.png);">
             <div class="row align-items-center">
@@ -233,7 +229,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--====== End CTa Section ======-->
 <!--====== Start Feedback Section ======-->
 <section class="feedback-section pt-100 pb-100">
@@ -345,9 +341,3 @@
 
 
 <?php include 'footer.php'; ?>
-
-
-
-
-
-

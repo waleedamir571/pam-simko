@@ -1,123 +1,65 @@
 <!--====== Start Footer ======-->
-<footer class="footer-default dark-black-bg text-white">
+<footer>
+
+
     <div class="container">
-        <!-- <div class="footer-newsletter pt-80 pb-40">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="section-title mb-30 wow fadeInLeft">
-                        <h2>Subscribe Our Newsletter<span class="thin">Get Every Update</span></h2>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="newsletter-form mb-30 wow fadeInRight">
-                        <form>
-                            <div class="form_group">
-                                <label><i class="far fa-envelope-open"></i></label>
-                                <input type="email" class="form_control" placeholder="Email Address" required>
-                                <button class="main-btn btn-green">Subscribe<i
-                                        class="far fa-angle-double-right"></i></button>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-container">
+                    <div class="text-left">
+                        <img class="w-10" src="assets/images/logo/f-logo.png" alt="">
+                         <!-- <h1>Pam Simko</h1> -->
+
+                        <div class="row pt-40">
+                            <div class="col-md-9">
+                                <nav class="footer-nav ">
+                                    <a href="index.php">HOME</a>
+                                    <a href="about.php">ABOUT</a>
+                                    <a href="gallery.php">Gallery</a>
+                                    <a href="books.php">Books</a>
+                                    <a href="contact.php">Contact Us</a>
+                                   
+                                </nav>
                             </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <div class="footer-widget-area pt-80 pb-30">
-            <div class="row">
-                <div class=" col-lg-4 col-md-6">
-                    <div class="footer-widget about-company-widget mb-40 wow fadeInDown">
-                        <a href="" class="footer-logo"><img src="assets/images/7119040_3286566 [Recovered]-01.png" alt="LOGO"></a>
-                        <p>Experience seamless travel planning with us. Whether you're looking for adventure or
-                            relaxation, we provide everything you need for an unforgettable journey. Stay connected with
-                            us for updates, tips, and exclusive deals to make your travels truly exceptional.</p>
-                        <ul class="social-link">
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class=" col-lg-4 col-md-6">
-                    <div class="footer-widget footer-nav-widget pl-lg-55 mb-40 wow fadeInUp">
-                        <h4 class="widget-title">Links</h4>
-                        <div class="footer-nav-content">
-                            <ul class="footer-nav">
-                                <li><a href="#">Home</a></li>
-                                <!-- <li><a href="#">Pricing</a></li> -->
-                                <li><a href="#">About us</a></li>
-                                <!-- <li><a href="#">Features</a></li>
-                                <li><a href="#">Blog</a></li> -->
-                            </ul>
+                            <div class="col-md-3">
+
+                                <div class="social-icons">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                    <a href="#"><i class="fab fa-google"></i></a>
+                                    <a href="#"><i class="fas fa-envelope"></i></a>
+                                </div>
+                            </div>
                         </div>
+
+
                     </div>
-                </div>
-                <!-- <div class="col-xl-2 col-lg-4 col-md-6">
-                    <div class="footer-widget footer-nav-widget pl-lg-20 mb-40 wow fadeInDown">
-                        <h4 class="widget-title">Services</h4>
-                        <div class="footer-nav-content">
-                            <ul class="footer-nav">
-                                <li><a href="#">Caravan Soler Tent</a></li>
-                                <li><a href="#">Family Tent Camping</a></li>
-                                <li><a href="#">Classic Tent Camping</a></li>
-                                <li><a href="#">Wild Tent Camping</a></li>
-                                <li><a href="#">Bell Glamp One</a></li>
-                                <li><a href="#">Small Cabin Wood</a></li>
-                            </ul>
+                   
+                    <div class="books">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <!-- <h2>MY BOOKS</h2> -->
+                                <a href="#">MY BOOKS</a>
+                            </div>
+                            <div class="col-md-10">
+                                <a href="#">HEART LAND</a>
+                                <a href="#">SUGAR</a>
+                                <a href="#">OPERATION BONNET</a>
+                                <a href="#">STRETCH MARKS</a>
+                                <a href="#">BOTTOM LINE</a>
+                                <a href="#">BETTER TOGETHER</a>
+                                <a href="#">BALANCING ACT</a>
+                            </div>
                         </div>
+
+
                     </div>
-                </div>
-                <div class="col-xl-2 col-lg-4 col-md-6">
-                    <div class="footer-widget footer-nav-widget pl-lg-70 mb-40 wow fadeInUp">
-                        <h4 class="widget-title">Support</h4>
-                        <div class="footer-nav-content">
-                            <ul class="footer-nav">
-                                <li><a href="#">Meet Our Team</a></li>
-                                <li><a href="#">Item Support</a></li>
-                                <li><a href="#">Contact Foram</a></li>
-                                <li><a href="#">Report Abuse</a></li>
-                                <li><a href="#">Live</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div> -->
-                <div class=" col-lg-4 col-md-6">
-                    <div class="footer-widget contact-info-widget pl-lg-100 mb-40 wow fadeInDown">
-                        <div class="contact-info-box mb-35">
-                            <h4 class="title">Location</h4>
-                            <p><i class="far fa-map-marker-alt"></i><span>Lorem ipsum
-                                    Gulfport, MS 39503</span></p>
-                        </div>
-                        <div class="contact-info-box mb-35">
-                            <h4 class="title">Contact</h4>
-                            <p><i class="far fa-envelope"></i><a href="mailto:support@gmail.com">support@gmail.com</a>
-                            </p>
-                            <p><i class="far fa-phone"></i><a href="tel:+000(123)4566">+000 (123) 45 66</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--=== Copyright Area ===-->
-        <div class="copyright-area">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="copyright-text">
-                        <P>&copy; 2024 <span style="color:#F7921E;">Lorem-ipsum</span>, All Rights Reserved</P>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="copyright-nav float-lg-end">
-                        <ul>
-                            <li><a href="#">Setting & Privacy</a></li>
-                            <!-- <li><a href="#">Faqs</a></li>
-                            <li><a href="#">Food Menu</a></li> -->
-                        </ul>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
 </footer><!--====== End Footer ======-->
 <!--====== Back To Top  ======-->
 <a href="#" class="back-to-top"><i class="far fa-angle-up"></i></a>

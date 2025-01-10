@@ -61,53 +61,60 @@
         <!--=== Header Navigation ===-->
         <div class="header-navigation default-navigation">
             <div class="nav-overlay"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="text-center">
+                    <a href="#" class="brand-logo"><img src="assets/images/7119040_3286566 [Recovered]-01.png" alt="LOGO"></a>
+                </div>
+                </div>
+            </div>
             <div class="container-fluid">
                 <!--=== Primary Menu ===-->
                 <div class="primary-menu">
                     <!--=== Site Branding ===-->
                     <div class="site-branding">
-                        <a href="#" class="brand-logo"><img src="assets/images/7119040_3286566 [Recovered]-01.png" alt="LOGO"></a>
+                     
                     </div>
                     <!--=== Nav Inner Menu ===-->
-                    <div class="nav-menu">
-                        <!--=== Mobile Logo ===-->
-                        <div class="mobile-logo mb-30 d-block d-xl-none text-center">
-                            <a href="#" class="brand-logo"><img src="assets/images/7119040_3286566 [Recovered]-01.png" alt="LOGO"></a>
-                        </div>
-                        <!--=== Nav Search ===-->
-                        <div class="nav-search mb-30 d-block d-xl-none ">
-                            <form>
-                                <div class="form_group">
-                                    <input type="email" class="form_control" placeholder="Search Here" name="email"
-                                        required>
-                                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- Logo and Nav -->
+                            <div class="col-md-5 offset-md-4">
+                                <div class="nav-menu">
+                                    <!--=== Mobile Logo ===-->
+                                    <div class="mobile-logo mb-30 d-block d-xl-none text-center">
+                                        <a href="#" class="brand-logo"><img src="assets/images/7119040_3286566 [Recovered]-01.png" alt="LOGO"></a>
+                                    </div>
+                                    <!--=== Nav Search ===-->
+                                    <div class="nav-search mb-30 d-block d-xl-none">
+                                        <form>
+                                            <div class="form_group">
+                                                <input type="email" class="form_control" placeholder="Search Here" name="email" required>
+                                                <button class="search-btn"><i class="fas fa-search"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <nav class="main-menu">
+                                        <ul class="d-flex align-items-center">
+                                            <li class="menu-item has-children"><a href="./">Home</a></li>
+                                            <li class="menu-item has-children"><a href="about.php">About Us</a></li>
+                                            <li class="menu-item has-children"><a href="gallery.php">Gallery</a></li>
+                                            <li class="menu-item"><a href="books.php">Books</a></li>
+                                            <li class="menu-item has-children"><a href="contact.php">Contact Us</a></li>
+                                            <li class="menu-item"><a class="search-btn" href="#" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="far fa-search"></i></a></li>
+                                        </ul>
+                                    </nav>
                                 </div>
-                            </form>
-                        </div>
-                        <!--=== Main Menu ===-->
-                        <nav class="main-menu">
-                            <ul>
-                                <li class="menu-item has-children"><a href="./">Home</a>
-
-                                </li>
-
-                                <li class="menu-item has-children"><a href="about.php">About Us</a>
-
-                                </li>
-                                <li class="menu-item"><a href="books.php">Books</a></li>
-                                <li class="menu-item has-children"><a href="contact.php">Contact Us</a>
-
-                                </li>
-                               
-                                <li class="menu-item"><a class="search-btn" href="#" data-bs-toggle="modal"
-                                        data-bs-target="#search-modal"><i class="far fa-search"></i></a></li>
-                            </ul>
-                        </nav>
-                        <!--=== Nav Button ===-->
-                        <div class="menu-button mt-40 d-xl-none">
-                            <a href="#" class="main-btn btn-green">Book now<i class="far fa-angle-double-right"></i></a>
+                            </div>
+                    
+                            <!-- Book Now Button -->
+                            <div class="col-md-3 d-flex justify-content-end align-items-center">
+                                <a href="#" class="main-btn btn-books">Subscribe TO MY NEWSLETTER!</a>
+                            </div>
                         </div>
                     </div>
+                    
+                    
                     <!--=== Nav right Item ===-->
                     <div class="nav-right-item d-flex align-items-center">
 

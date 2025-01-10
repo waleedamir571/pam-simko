@@ -266,39 +266,44 @@
             ]
         });
     }
-    if ($('.gallery-slider-one').length) {
-        $('.gallery-slider-one').slick({
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 800,
-            autoplay: true,
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            prevArrow: '<div class="prev"><i class="far fa-angle-left"></i></div>',
-            nextArrow: '<div class="next"><i class="far fa-angle-right"></i></div>',
-            responsive: [
-                {
-                    breakpoint: 1400,
-                    settings: {
-                        slidesToShow: 3
+    $(document).ready(function() {
+        // Ensure slider is initialized after the page is fully loaded
+        if ($('.gallery-slider-one').length) {
+            $('.gallery-slider-one').slick({
+                dots: true,               // Show dots (pagination)
+                arrows: true,             // Show navigation arrows
+                infinite: true,           // Infinite scroll
+                speed: 800,               // Transition speed in ms
+                autoplay: true,           // Enable autoplay
+                slidesToShow: 4,          // Number of slides to show at once
+                slidesToScroll: 4,        // Number of slides to scroll at once
+                prevArrow: '<div class="prev"><i class="far fa-angle-left"></i></div>',
+                nextArrow: '<div class="next"><i class="far fa-angle-right"></i></div>',
+                responsive: [
+                    {
+                        breakpoint: 1400,  // For screen widths <= 1400px
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 1200,  // For screen widths <= 1200px
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 767,   // For screen widths <= 767px (mobile)
+                        settings: {
+                            slidesToShow: 1
+                        }
                     }
-                },
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    }
+                ]
+            });
+        }
+    });
+    
+    
     if ($('.gallery-slider-two').length) {
         $('.gallery-slider-two').slick({
             dots: false,

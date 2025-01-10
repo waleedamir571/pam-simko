@@ -85,12 +85,86 @@ h5 {
   font-weight: 600;
   line-height: 1.2;
 }
+.btn-books{   
+  
+color: #000 !important;
+text-transform: uppercase;
+background-color: #0000;
+border: 2px solid #000;
+margin-bottom: 5px;
+margin-left: 4px;
+padding: 8px 38px !important;
+border-radius: 0px !important;
+font-size: 12px;
+font-weight: 700;
+display: inline-block;
+}
+
+.pt-40 {
+  padding-top: 40px;
+  border-bottom: 1px solid #f0f0f033;
+  padding-bottom: 30px;
+}
+
+.w-10{
+  width: 10%;
+}
 
 .rem-100{
 
   width: 100rem;
 
 }
+
+footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 20px;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.footer-container h1,
+.footer-container h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-nav a,
+.books a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.footer-nav a:hover,
+.books a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 20px 0;
+}
+
+.books {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  color: #888;
+}
+
 
 .comments-area .comment .comment-wrap .comment-author-content span.author-name, h6 {
   font-size: 22px;
@@ -191,10 +265,10 @@ body {
 }
 
 /*====== Extra CSS ======*/
-.container-fluid {
-  padding-left: 70px;
-  padding-right: 70px;
-}
+/* .container-fluid {
+  padding-left: 0px;
+  padding-right: 110px;
+} */
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
   .container-fluid {
     padding-left: 15px;
