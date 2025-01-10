@@ -14,7 +14,7 @@
                             <div class="col-md-9">
                                 <nav class="footer-nav ">
                                     <a href="index.php">HOME</a>
-                                    <a href="about.php">ABOUT</a>
+                                    <a href="about.php">About</a>
                                     <a href="gallery.php">Gallery</a>
                                     <a href="books.php">Books</a>
                                     <a href="contact.php">Contact Us</a>
@@ -31,7 +31,6 @@
                                 </div>
                             </div>
                         </div>
-
 
                     </div>
                    

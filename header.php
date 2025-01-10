@@ -109,7 +109,7 @@
                     
                             <!-- Book Now Button -->
                             <div class="col-md-3 d-flex justify-content-end align-items-center">
-                                <a href="#" class="main-btn btn-books">Subscribe TO MY NEWSLETTER!</a>
+                                <a href="#" class="main-btn btn-books">Subscribe TO MY Youtube Channel!</a>
                             </div>
                         </div>
                     </div>

@@ -339,19 +339,20 @@
     }
     if ($('.testimonial-slider-one').length) {
         var sliderDots = $('.testimonial-dots');
-        var sliderArrows = $('.testimonial-arrows');
+        var sliderArrows = $('.testimonial-arrows');  // Make sure this container exists in your HTML
+        
         $('.testimonial-slider-one').slick({
             dots: true,
             arrows: true,
             infinite: true,
             speed: 800,
             appendDots: sliderDots,
-            appendArrows: sliderArrows,
+            appendArrows: sliderArrows,  // Append arrows correctly
             autoplay: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             prevArrow: '<div class="prev"><i class="far fa-arrow-left"></i></div>',
-            nextArrow: '<div class="next"><i class="far fa-arrow-right"></i></div>'
+            nextArrow: '<div class="next"><i class="far fa-arrow-right"></i></div>',
         });
     }
     if ($('.testimonial-slider-two').length) {

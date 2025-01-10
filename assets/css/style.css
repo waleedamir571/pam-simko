@@ -56,6 +56,47 @@ h6, .comments-area .comment .comment-wrap .comment-author-content span.author-na
   color: #F7921E;
 }
 
+/* Position the arrows inside the testimonial slider */
+.testimonial-slider-one {
+  position: relative; /* Ensures that arrows are positioned relative to the slider */
+}
+
+/* Styling for the arrows container */
+.testimonial-arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 10; /* Ensure it's above the slider content */
+}
+
+/* Style for individual arrow buttons */
+.testimonial-arrows .prev,
+.testimonial-arrows .next {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Left arrow */
+.testimonial-arrows .prev {
+  left: 10px;
+}
+
+/* Right arrow */
+.testimonial-arrows .next {
+  right: 10px;
+}
+
+
 h1 {
   font-size: 68px;
   font-weight: 600;
@@ -85,6 +126,60 @@ h5 {
   font-weight: 600;
   line-height: 1.2;
 }
+
+.testimonial-section {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial-content {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.author-image img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.author-name {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #555;
+}
+
+.testimonial-text {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #777;
+}
+
+/* Navigation Arrows */
+.nav-arrow {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #555;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s;
+}
+
+.nav-arrow:hover {
+  color: #000;
+}
+
 .btn-books{   
   
 color: #000 !important;
@@ -4985,7 +5080,7 @@ form.contact-form textarea.form_control {
 
 .feedback-wrapper-one .testimonial-wrapper {
   padding: 50px 50px;
-  background-color: #F9F9F7;
+  /* background-color: #F9F9F7; */
   border-radius: 7px;
 }
 @media (max-width: 1199px) {
