@@ -31,7 +31,6 @@
                                     three children, love my husband, scrub toilets, ignore the laundry, and love a good
                                     story, but hardly ever in that order.
 
-
                                 </h3>
                                 <br>
                                 <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
@@ -92,20 +91,21 @@
                     <h2>Books of Pamela Simko
                         <span class="thin"></span>
                     </h2>
+
+                    <p>This brief book shares the joys, challenges, and unexpected moments that make every journey
+                        unique. Drawing on extensive research and exploration, I delved into the safest and most
+                        affordable areas to retire on Social Security alone. As a single woman, my goal was to assess
+                        how feasible it is to live comfortably in these areas.</p>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class=" col-md-12 col-sm-12">
                 <img src="assets/images/hero/book.jpg" alt="Service image">
-
             </div>
-
         </div>
     </div>
 </section>
-
-
 
 <!-- <section class="about-section pt-100 pb-50">
     <div class="container">
@@ -462,11 +462,9 @@
 
                             <h2>WHAT READERS SAY:
                             </h2>
-                        </div>
-                      
+                        </div>                      
                     </div>
                 </div>
-
             </div>
 
             <div class="row">
@@ -522,11 +520,8 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-
-                        
+                        </div>                        
                     </div>
-
                 </div>
             </div>
         </div>

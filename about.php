@@ -10,12 +10,10 @@
                 <div class="page-banner-content  text-white">
                     <h1 class="page-title">About Me
                     </h1>
-                    <p>Kimberly Stuart, in an effort to condone the time and money spent, would like you to know she
-                        holds degrees from St. Olaf College and the University of Iowa. She learned lots of interesting
-                        things at these fine institutions, none of which prepared her for the lethal cocktail of
-                        parenthood and writing. Stuart is the author of eight published novels, including the Heidi
-                        Elliott series, Act Two, Stretch Marks, Operation Bonnet, Sugar, and Heart Land. She is a
-                        frequent public speaker and is passionate about helping others live great stories.</p>
+                    <p>This brief book shares the joys, challenges, and unexpected moments that make every journey
+                        unique. Drawing on extensive research and exploration, I delved into the safest and most
+                        affordable areas to retire on Social Security alone. As a single woman, my goal was to assess
+                        how feasible it is to live comfortably in these areas.</p>
                     <!-- <ul class="breadcrumb-link text-white">
                         <li><a href="index.html">Home</a></li>
                         <li class="active">About Us</li>
@@ -232,30 +230,37 @@
 </section> -->
 <!--====== End CTa Section ======-->
 <!--====== Start Feedback Section ======-->
-<section class="feedback-section pt-100 pb-100">
+<section class="feedback-section pt-100">
     <div class="container">
         <div class="feedback-wrapper-one">
             <div class="row align-items-center">
-                <div class="col-lg-5">
-                    <div class="section-title mb-45 wow fadeInLeft">
-                        <span class="sub-title"><span class="number">05</span>Testimonils</span>
-                        <h2>What Our Client Say <span class="thin">About Us</span></h2>
+                <div class="col-lg-12 text-center">
+                    <div class="feedback-content-box wow fadeInLeft">
+                        <div class="section-title mb-45">
+
+                            <h2>WHAT READERS SAY:
+                            </h2>
+                        </div>
                     </div>
-                    <div class="testimonial-arrows mb-45"></div>
                 </div>
-                <div class="col-lg-7">
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+
                     <div class="testimonial-wrapper wow fadeInRight">
                         <div class="testimonial-slider-one">
                             <div class="single-testimonial-item text-center">
                                 <div class="testimonial-content">
-                                    <div class="author-title-thumb d-inline-flex mb-25">
+                                    <div class="author-title-thumb d-inline-flex">
                                         <div class="author-thumb">
                                             <img src="assets/images/testimonial/author-thumb-1.jpg" alt="Author Thumb">
                                         </div>
-                                        <div class="author-title">
-                                            <h3 class="title">Brian A. Barnes</h3>
-                                            <p class="position">CEO & Founder</p>
-                                        </div>
+
+                                    </div>
+                                    <div class="author-title">
+                                        <h3 class="title">Brian A. Barnes</h3>
+                                        <p class="position">CEO & Founder</p>
                                     </div>
                                     <p>Sit amet consectetur adipiscing congue pose
                                         habit ante dignissim faucibus tincidunt vulputate
@@ -275,10 +280,11 @@
                                         <div class="author-thumb">
                                             <img src="assets/images/testimonial/author-thumb-1.jpg" alt="Author Thumb">
                                         </div>
-                                        <div class="author-title">
-                                            <h3 class="title">Brian A. Barnes</h3>
-                                            <p class="position">CEO & Founder</p>
-                                        </div>
+
+                                    </div>
+                                    <div class="author-title">
+                                        <h3 class="title">Brian A. Barnes</h3>
+                                        <p class="position">CEO & Founder</p>
                                     </div>
                                     <p>Sit amet consectetur adipiscing congue pose
                                         habit ante dignissim faucibus tincidunt vulputate

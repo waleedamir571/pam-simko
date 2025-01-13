@@ -1,176 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Video Slider</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-    }
-
-    .slider-container {
-      padding: 50px 20px;
-      text-align: center;
-      width: 100%;
-    }
-
-    .slider-container h2 {
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-
-    .swiper {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .swiper-slide {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      position: relative;
-    }
-
-    .swiper-slide img {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 8px;
-      height: 12rem;
-    }
-
-    .swiper-slide video {
-      width: 100%;
-      max-width: 300px;
-      border-radius: 8px;
-    }
-
-    .play-button {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 50px;
-      height: 50px;
-      background: rgba(0, 0, 0, 0.6);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-    }
-
-    .play-button::after {
-      content: '';
-      width: 15px;
-      height: 15px;
-      border-left: 10px solid #fff;
-      border-top: 7.5px solid transparent;
-      border-bottom: 7.5px solid transparent;
-    }
-  </style>
-</head>
-<body>
-  <div class="slider-container">
-    <h2>People and Koala Sofa Beds</h2>
-    <div class="swiper">
-      <div class="swiper-wrapper">
-        <!-- Slides -->
-        <div class="swiper-slide">
-          <img src="assets/images/bg/choose-bg-2.jpg" alt="Slide 1">
-          <div class="play-button" data-video="video1.mp4"></div>
-        </div>
-        <div class="swiper-slide">
-          <img src="assets/images/bg/choose-bg-2.jpg" alt="Slide 2">
-          <div class="play-button" data-video="video2.mp4"></div>
-        </div>
-        <div class="swiper-slide">
-          <img src="assets/images/bg/choose-bg-2.jpg" alt="Slide 3">
-          <div class="play-button" data-video="video3.mp4"></div>
-        </div>
-        <div class="swiper-slide">
-          <img src="assets/images/bg/choose-bg-2.jpg" alt="Slide 4">
-          <div class="play-button" data-video="video4.mp4"></div>
-        </div>
-        <div class="swiper-slide">
-          <img src="assets/images/bg/choose-bg-2.jpg" alt="Slide 5">
-          <div class="play-button" data-video="video5.mp4"></div>
-        </div>
-      </div>
-      <!-- Add Navigation -->
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-    </div>
-  </div>
-
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script>
-    // Initialize Swiper
-    const swiper = new Swiper('.swiper', {
-      slidesPerView: 5, // Show 3 slides at once
-      spaceBetween: 20,
-      loop: true, // Infinite looping
-      autoplay: {
-        delay: 3000, // 3-second delay between slides
-        disableOnInteraction: false, // Keep autoplay even after interaction
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      mousewheel: true, // Enable scrolling with mouse wheel
-      breakpoints: {
-        768: { slidesPerView: 2 }, // 2 slides on tablet
-        1024: { slidesPerView: 5 }, // 3 slides on desktop
-      },
-    });
-
-    // Keep track of the currently playing video
-    let currentlyPlayingVideo = null;
-
-    // Replace image with video and manage playback
-    document.querySelectorAll('.play-button').forEach((button) => {
-      button.addEventListener('click', (e) => {
-        const slide = button.parentElement;
-        const videoSrc = button.getAttribute('data-video');
-
-        // Stop any currently playing video
-        if (currentlyPlayingVideo) {
-          currentlyPlayingVideo.pause();
-          currentlyPlayingVideo.parentElement.innerHTML = `
-            <img src="https://via.placeholder.com/300x200" alt="Slide">
-            <div class="play-button" data-video="${currentlyPlayingVideo.src}"></div>
-          `;
-          currentlyPlayingVideo = null;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOI Solution Full Page</title>
+    <style>
+        /* Ensure no margins and full-page coverage */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Prevent scrolling */
         }
 
-        // Replace the image with a video element
-        slide.innerHTML = `
-          <video controls autoplay>
-            <source src="${videoSrc}" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        `;
+        /* Fullscreen iframe */
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
 
-        // Set the currently playing video
-        currentlyPlayingVideo = slide.querySelector('video');
+    <!-- Embedding the page with iframe -->
+    <iframe src="https://hoisolution.com/" frameborder="0"></iframe>
 
-        // Add an event listener to reset when video ends
-        currentlyPlayingVideo.addEventListener('ended', () => {
-          slide.innerHTML = `
-            <img src="https://via.placeholder.com/300x200" alt="Slide">
-            <div class="play-button" data-video="${videoSrc}"></div>
-          `;
-          currentlyPlayingVideo = null;
-        });
-      });
-    });
-  </script>
 </body>
 </html>
