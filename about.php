@@ -230,7 +230,7 @@
 </section> -->
 <!--====== End CTa Section ======-->
 <!--====== Start Feedback Section ======-->
-<section class="feedback-section pt-100">
+<!-- <section class="feedback-section pt-100">
     <div class="container">
         <div class="feedback-wrapper-one">
             <div class="row align-items-center">
@@ -304,7 +304,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--====== End Feedback Section ======-->
 <!--====== Start Partners Section ======-->
 <section class="partners-section light-red-bg pb-80">
@@ -343,7 +343,9 @@
             </div>
         </div>
     </div>
-</section><!--====== End Partners Section ======-->
+</section>
+
+<!--====== End Partners Section ======-->
 
 
 <?php include 'footer.php'; ?>

@@ -79,7 +79,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <!-- Logo and Nav -->
-                            <div class="col-md-5 offset-md-4">
+                            <div class="col-md-6 offset-md-3">
                                 <div class="nav-menu">
                                     <!--=== Mobile Logo ===-->
                                     <div class="mobile-logo mb-30 d-block d-xl-none text-center">
@@ -95,12 +95,12 @@
                                         </form>
                                     </div>
                                     <nav class="main-menu">
-                                        <ul class="d-flex align-items-center">
+                                        <ul class="d-flex align-items-center space">
                                             <li class="menu-item has-children"><a href="./">Home</a></li>
                                             <li class="menu-item has-children"><a href="about.php">About Us</a></li>
                                             <li class="menu-item has-children"><a href="gallery.php">Gallery</a></li>
                                             <li class="menu-item"><a href="books.php">Books</a></li>
-                                            <li class="menu-item has-children"><a href="contact.php">Contact Us</a></li>
+                                            <!-- <li class="menu-item has-children"><a href="contact.php">Contact Us</a></li> -->
                                             <li class="menu-item"><a class="search-btn" href="#" data-bs-toggle="modal" data-bs-target="#search-modal"><i class="far fa-search"></i></a></li>
                                         </ul>
                                     </nav>

@@ -61,6 +61,15 @@ h6, .comments-area .comment .comment-wrap .comment-author-content span.author-na
   position: relative; /* Ensures that arrows are positioned relative to the slider */
 }
 
+.space{
+  display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-evenly;
+      align-items: center;
+}
+
 /* Styling for the arrows container */
 .testimonial-arrows {
   position: absolute;

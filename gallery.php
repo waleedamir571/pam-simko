@@ -9,6 +9,15 @@
         line-height: 1;
         display: none !important;
     }
+
+    .partner-slider-one {
+    border-top: 1px solid rgba(28, 35, 31, 0.1);
+    margin-left: -50px;
+    margin-right: -50px;
+    display: none;
+}
+
+    
 </style>
 
 <!--====== End Header ======-->
@@ -402,81 +411,45 @@
 </section>
 <!--====== End Contact Map Section ======-->
 
-<<section class="feedback-section pt-100">
+<section class="partners-section light-red-bg pb-80" >
     <div class="container">
-        <div class="feedback-wrapper-one">
-            <div class="row align-items-center">
-                <div class="col-lg-12 text-center">
-                    <div class="feedback-content-box wow fadeInLeft">
-                        <div class="section-title mb-45">
-
-                            <h2>WHAT READERS SAY:
-                            </h2>
-                        </div>                      
-                    </div>
+        <!--=== Partners Slider ===-->
+        <div class="partner-slider-one pt-80 wow fadeInDown">
+            <div class="single-partner-item">
+                <div class="partner-img">
+                    <a href="#"><img src="assets/images/partners/partner-1.png" alt="Partner Image"></a>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-12">
-
-                    <div class="testimonial-wrapper wow fadeInRight">
-                        <div class="testimonial-slider-one">
-                            <div class="single-testimonial-item text-center">
-                                <div class="testimonial-content">
-                                    <div class="author-title-thumb d-inline-flex">
-                                        <div class="author-thumb">
-                                            <img src="assets/images/testimonial/author-thumb-1.jpg" alt="Author Thumb">
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="author-title">
-                                        <h3 class="title">Brian A. Barnes</h3>
-                                        <p class="position">CEO & Founder</p>
-                                    </div>
-                                    <p>Sit amet consectetur adipiscing congue pose
-                                        habit ante dignissim faucibus tincidunt vulputate
-                                        ullamcorper mattis quisque esta sidiculus</p>
-                                    <ul class="ratings">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="single-testimonial-item text-center">
-                                <div class="testimonial-content">
-                                    <div class="author-title-thumb d-inline-flex">
-                                        <div class="author-thumb">
-                                            <img src="assets/images/testimonial/author-thumb-1.jpg" alt="Author Thumb">
-                                        </div>
-                                       
-                                    </div>
-                                    <div class="author-title">
-                                        <h3 class="title">Brian A. Barnes</h3>
-                                        <p class="position">CEO & Founder</p>
-                                    </div>
-                                    <p>Sit amet consectetur adipiscing congue pose
-                                        habit ante dignissim faucibus tincidunt vulputate
-                                        ullamcorper mattis quisque esta sidiculus</p>
-                                    <ul class="ratings">
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                        <li><i class="fas fa-star"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>                        
-                    </div>
+            <div class="single-partner-item">
+                <div class="partner-img">
+                    <a href="#"><img src="assets/images/partners/partner-2.png" alt="Partner Image"></a>
+                </div>
+            </div>
+            <div class="single-partner-item">
+                <div class="partner-img">
+                    <a href="#"><img src="assets/images/partners/partner-3.png" alt="Partner Image"></a>
+                </div>
+            </div>
+            <div class="single-partner-item">
+                <div class="partner-img">
+                    <a href="#"><img src="assets/images/partners/partner-4.png" alt="Partner Image"></a>
+                </div>
+            </div>
+            <div class="single-partner-item">
+                <div class="partner-img">
+                    <a href="#"><img src="assets/images/partners/partner-5.png" alt="Partner Image"></a>
+                </div>
+            </div>
+            <div class="single-partner-item">
+                <div class="partner-img">
+                    <a href="#"><img src="assets/images/partners/partner-4.png" alt="Partner Image"></a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+
 <?php include 'footer.php'; ?>
 
 

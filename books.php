@@ -11,20 +11,18 @@
                     <h2>Books of Pamela Simko
                         <span class="thin"></span>
                     </h2>
-                    <p>I explored essential aspects such as housing options, building opportunities, healthcare
-                        facilities, shopping, and transportation. Merida stood out as an incredibly affordable city for
-                        retirees, offering a warm, friendly community and a vibrant lifestyle.
-                        This book is a helpful guide for anyone considering a new chapter in retirement, with practical
-                        insights and firsthand experiences to inspire your journey.</p>
+
+                    <p>This brief book shares the joys, challenges, and unexpected moments that make every journey
+                        unique. Drawing on extensive research and exploration, I delved into the safest and most
+                        affordable areas to retire on Social Security alone. As a single woman, my goal was to assess
+                        how feasible it is to live comfortably in these areas.</p>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class=" col-md-12 col-sm-12">
                 <img src="assets/images/hero/book.jpg" alt="Service image">
-
             </div>
-
         </div>
     </div>
 </section>
