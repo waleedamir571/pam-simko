@@ -34,10 +34,9 @@
                                 </h3>
                                 <br>
                                 <div class="hero-button" data-animation="fadeInDown" data-delay=".8s">
-                                    <a href="#" class="main-btn btn-yellow">Learn more<i
+                                    <a href="#" class="main-btn btn-yellow">Read  more<i
                                             class="far fa-angle-double-right"></i></a>
-                                    <a href="#" class="main-btn btn-link">Subscribe<i
-                                            class="far fa-angle-double-right"></i></a>
+                                   
                                 </div>
                             </div>
                         </div>

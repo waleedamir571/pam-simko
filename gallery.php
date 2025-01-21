@@ -11,13 +11,11 @@
     }
 
     .partner-slider-one {
-    border-top: 1px solid rgba(28, 35, 31, 0.1);
-    margin-left: -50px;
-    margin-right: -50px;
-    display: none;
-}
-
-    
+        border-top: 1px solid rgba(28, 35, 31, 0.1);
+        margin-left: -50px;
+        margin-right: -50px;
+        display: none;
+    }
 </style>
 
 <!--====== End Header ======-->
@@ -29,6 +27,12 @@
                 <div class="section-title text-center mb-50 wow fadeInDown">
                     <span class="sub-title"><span class="number">06</span>Recent Gallery</span>
                     <h2>Explore My Photo Gallery: <span class="thin">Capturing Memories from My Travels</span></h2>
+                    <br>
+                    <p>Explore my photo gallery and take a journey through the moments and memories I’ve captured from
+                        my travels. Each photograph tells a story—whether it’s the vibrant colors of bustling markets,
+                        serene landscapes of distant shores, or the heartfelt smiles of people I’ve met along the way.
+                        These images are more than just pictures; they are windows into the beauty, culture, and
+                        inspiration I’ve discovered across the globe.</p>
                 </div>
             </div>
         </div>
@@ -411,7 +415,7 @@
 </section>
 <!--====== End Contact Map Section ======-->
 
-<section class="partners-section light-red-bg pb-80" >
+<section class="partners-section light-red-bg pb-80">
     <div class="container">
         <!--=== Partners Slider ===-->
         <div class="partner-slider-one pt-80 wow fadeInDown">
@@ -451,7 +455,3 @@
 
 
 <?php include 'footer.php'; ?>
-
-
-
-

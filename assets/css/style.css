@@ -52,6 +52,10 @@ h6, .comments-area .comment .comment-wrap .comment-author-content span.author-na
   color: #63AC45;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .play-wrapper-one .video-popup, .single-blog-post-item-two .entry-content .btn-link:hover, .single-blog-post-item-two .entry-content h4.title:hover, .acc-sidebar-area .trending-place-widget .place-widget-content .inner-content span i, .video-popup i, ul.ratings li i, .experience-box .big-text h2.number span.symbol, .hero-content .hero-button .btn-link:hover {
   color: #F7921E;
 }
@@ -61,6 +65,23 @@ h6, .comments-area .comment .comment-wrap .comment-author-content span.author-na
   position: relative; /* Ensures that arrows are positioned relative to the slider */
 }
 
+.color-white{
+  color: #fff;
+}
+
+
+.bg-img {
+  background-image: url(../images/hero/book-bg.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-top: 100px;
+}
+
+
+.pb-40{
+  padding-bottom: 40px;
+}
 .space{
   display: flex;
       flex-direction: row;
@@ -1405,6 +1426,34 @@ button {
     -webkit-margin-start: 15px;
             margin-inline-start: 15px;
   }
+  .bg-img {
+    background-image: url(../images/hero/book-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 0px;
+}
+.main-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex
+;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 16px 30px;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  color: #fff;
+  line-height: 21px;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
 }
 .header-navigation .navbar-toggler span {
   position: relative;

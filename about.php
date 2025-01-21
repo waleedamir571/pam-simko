@@ -10,10 +10,16 @@
                 <div class="page-banner-content  text-white">
                     <h1 class="page-title">About Me
                     </h1>
-                    <p>This brief book shares the joys, challenges, and unexpected moments that make every journey
-                        unique. Drawing on extensive research and exploration, I delved into the safest and most
-                        affordable areas to retire on Social Security alone. As a single woman, my goal was to assess
-                        how feasible it is to live comfortably in these areas.</p>
+                    <p>Hi, I’m Pam Simko. I was born in Pittsburgh, Pennsylvania, and later made my home in Colorado. My
+                        career began in cosmetology, but my passion for learning led me to pursue studies in photography
+                        and computer skills.
+                        Travel has always been a love of mine, whether it’s a grand adventure or a simple getaway. I
+                        believe that stepping away, even for a short trip, offers a fresh perspective on life. Over the
+                        years, I’ve nurtured my interest in writing by attending classes and sharing my experiences.
+                        Through my stories, I hope to inspire others to explore this beautiful world and discover how
+                        travel can enrich their lives. By embracing new experiences, we become "richer" and can share
+                        that richness with everyone we meet.
+                        Let’s journey together and celebrate all the wonders this world has to offer!</p>
                     <!-- <ul class="breadcrumb-link text-white">
                         <li><a href="index.html">Home</a></li>
                         <li class="active">About Us</li>

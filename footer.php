@@ -17,7 +17,7 @@
                                     <a href="about.php">About</a>
                                     <a href="gallery.php">Gallery</a>
                                     <a href="books.php">Books</a>
-                                    <a href="contact.php">Contact Us</a>
+                                   
                                    
                                 </nav>
                             </div>
@@ -34,10 +34,10 @@
 
                     </div>
                    
-                    <div class="books">
+                    <!-- <div class="books">
                         <div class="row">
                             <div class="col-md-2">
-                                <!-- <h2>MY BOOKS</h2> -->
+                              
                                 <a href="#">MY BOOKS</a>
                             </div>
                             <div class="col-md-10">
@@ -52,7 +52,7 @@
                         </div>
 
 
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
