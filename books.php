@@ -12,8 +12,8 @@
            
         </div>
         <div class="row justify-content-center">
-            <div class=" col-md-5 ">
-                <img src="assets/images/hero/book.jpg" alt="Service image">
+            <div class=" col-md-3 ">
+                <img src="assets/images/hero/book-new.jpg" alt="Service image">
             </div>
             <div class="col-md-6 offset-md-1 color-white">
                 <div class="section-title  mb-50 wow fadeInDown">
